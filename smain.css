@@ -1,0 +1,31 @@
+.slider-container {
+    position: relative; /* Position for the slider container */
+}
+
+.slider {
+    -webkit-appearance: none; /* Remove default styling */
+    height: 10px; /* Height of the track */
+    background: #ddd; /* Background of the track */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    width: 100%; /* Full width */
+    z-index: 1; /* Stack order */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default thumb styling */
+    appearance: none; /* Remove default thumb styling */
+    width: 20px; /* Width of the thumb */
+    height: 20px; /* Height of the thumb */
+    background: #4CAF50; /* Thumb color */
+    border-radius: 50%; /* Round thumb */
+    cursor: pointer; /* Pointer cursor */
+    z-index: 2; /* Stack order for thumb */
+}
+
+.slider::-moz-range-thumb {
+    width: 20px; /* Width of the thumb */
+    height: 20px; /* Height of the thumb */
+    background: #4CAF50; /* Thumb color */
+    border-radius: 50%; /* Round thumb */
+}
